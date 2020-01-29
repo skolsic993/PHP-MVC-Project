@@ -48,7 +48,7 @@ namespace App\Controllers;
 
             if($password1 !== $password2)
             {
-                $this->set('message', 'Passwords doesnt match idiot!!!');
+                $this->set('message', 'Passwords does\'nt match!');
                 return;
             }
 
@@ -65,14 +65,14 @@ namespace App\Controllers;
 
             if($user)
             {
-                $this->set('message', 'Greska, idiote  vec postoji taj email');
+                $this->set('message', 'Email already exist!');
                 return;
             }
 
             $user = $userModel->getByUsername($username);
             if($user)
             {
-                $this->set('message', 'Greska, idiote  vec postoji taj username!!!!');
+                $this->set('message', 'Username already exist!');
                 return;
             }
 
@@ -88,11 +88,11 @@ namespace App\Controllers;
 
             if(!$userId)
             {
-                $this->set('message', 'Mistake has been made. You didnt register idiot!!');
+                $this->set('message', 'Mistake has been made. Please try again!');
                 return;
             }
 
-            $this->set('message', 'New account has been made. you can login now!!!!!');
+            $this->set('message', 'New account has been made. You can login now!');
             return;
 
         }
@@ -137,14 +137,14 @@ namespace App\Controllers;
             $user = $userModel->getByFieldName('username', $username);
             if(!$user)
             {
-                $this->set('message', 'Invalid Username');
+                $this->set('message', 'Invalid username');
                 return;
             }
 
             if(!password_verify($password, $user->password_hash))
             {
                 sleep(1);
-                $this->set('message', 'Invalid PasSWORDDDD!!!!!!!!!');
+                $this->set('message', 'Invalid password!');
                 return;
             }
 

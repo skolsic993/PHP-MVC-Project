@@ -1,47 +1,83 @@
-<div class="container contact">
-    <div class="row" style="margin-top: 80px;">
-      <div class="col-md-12">
-        <h2 class="h2">Contact Us</h2>
-      </div>
+<div class="container" style="margin-bottom: 80px; margin-top: 100px;">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="h1-responsive font-weight-bold text-center">CONTACT US</h1>
+        </div>
     </div>
     <div class="row">
-      <div class="col-10 col-offset-2 col-sm-10 col-sm-offset-2 col-md-6 col-lg-6 col-xl-6">
-        <p>Our online store is open 24/7 for your convenience. We process every order within 2 hours. Feel free to
-          get in touch with any enquiries and one of our friendly members of staff will get back to you as soon as
-          possible, and remember, we want to hear from you!</p>
-      </div>
-    </div>
-    <div class="row" style="margin-top: 30px;">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387100.00635951816!2d-74.18673281217401!3d40.713455802738295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sde!4v1570981237099!5m2!1sen!2sde" width="610" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-4">
-          <div class="row">
-            <div class="full">
-              <h2 class="h2">Our Store</h2>
-            </div>
+        <ul class="contact-us-page__links">
+            <li class="contact-us-page__link">
+                <div>
+                    <div class="contact-us-page__link-icon"><img alt="Product FAQs" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dw357378e4/images/contactus/icon-faq.svg"></div>
+                </div>
+                <div>
+                    <div>
+                        <p class="contact-us-page__link-title">Product FAQs</p>
+                    </div>
+                </div>
+            </li>
+            <li class="contact-us-page__link">
+                <div class="contact-us-page__link-icon"><img alt="Shipping &amp; Returns" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dwffe66454/images/contactus/icon-shipping.svg"></div>
+                    <div>
+                        <div>
+                          <p class="contact-us-page__link-title">Shipping &amp; Returns</p>
+                    </div>
+            </li>
+            <li class="contact-us-page__link">
+                <div class="contact-us-page__link-icon"><img alt="Warranty" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dw6681d0e5/images/contactus/icon-warranty.svg"></div>
+                    <div>
+                        <div>
+                            <p class="contact-us-page__link-title">Warranty</p>
+                        </div>
+              </li>
+              <li class="contact-us-page__link">
+                  <div class="contact-us-page__link-icon"><img alt="Product Registration" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dwbd9b824b/images/contactus/icon-registration.svg"></div>
+                      <div>
+                          <div>
+                              <p class="contact-us-page__link-title">Product Registration</p>
+                          </div>
+              </li>
+              <li class="contact-us-page__link">
+                  <div class="contact-us-page__link-icon"><img alt="Gift Card Balance" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dwd686e0a7/images/contactus/icon-gift-card.svg"></div>
+                      <div>
+                          <div>
+                              <p class="contact-us-page__link-title">Gift Card Balance</p>
+                          </div>
+              </li>
+              <li class="contact-us-page__link">
+                  <div>
+                      <div class="contact-us-page__link-icon"><img alt="Privacy Policy" height="42" src="https://www.yeti.com/on/demandware.static/-/Library-Sites-SiteGenesisSharedLibrary/default/dw0527666a/images/contactus/200028-Privacy-Inquiry-Icon.svg" title="" width="38"></div>
+                  </div>
+                  <div>
+                      <div>
+                          <p class="contact-us-page__link-title">Privacy Policy</p>
+                      </div>
+              </li>
+          </ul>
+          <div class="contact-us-page__footer">
+              <div class="contact-us-page__footer-item">
+                  <p><strong>Customer Service Team</strong></p>
+                  <p><strong>1-512-394-9384</strong></p>
+                  <p>Monday – Friday</p>
+                  <p>7:00AM – 7:00PM CT</p>
+              </div>
+              <div class="contact-us-page__footer-item">
+                  <p><strong>Corporate Sales Team</strong></p>
+                  <p><strong>1-512-402-5895</strong></p>
+                  <p>Monday – Friday</p>
+                  <p>7:00AM – 7:00PM CT</p>
+              </div>
+              <div class="contact-us-page__footer-item">
+                  <p><strong>Corporate Office</strong></p>
+                  <p>7601 Southwest Parkway</p>
+                  <p>Austin, TX 78735</p>
+              </div>
+              <div class="contact-us-page__footer-item">
+                  <p><strong>YETI Flagship Store</strong></p>
+                  <p>220 S. Congress Avenue</p>
+                  <p>Austin, TX 78704</p>
+                  <p>1-512-640-7249</p>
+              </div>
           </div>
-          <div class="row">
-            <div class="full">
-              <p><i class="fas fa-flag-usa"></i>960 Orange Ave, Coronado, CA 92118</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="full">
-              <p><i class="far fa-clock"></i>Mon - Fri, 10am - 9pm</p>
-              <p style="margin-top: 10px !important; margin-left: 25px;">Saturday, 11am - 9pm</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="full">
-              <p><i class="fas fa-phone"></i> +999999999</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="full">
-              <p><i class="far fa-envelope"></i> hi@outlane.co</p>
-            </div>
-          </div>
-        </div>
     </div>
 </div>

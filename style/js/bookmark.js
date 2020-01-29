@@ -38,7 +38,7 @@ function displayBookmarks(bookmarks)
 
     if(bookmarks.length === 0)
     {
-        bookmarksDiv.innerHTML = 'No Items!';
+        bookmarksDiv.innerHTML = '<span id="bookmark-span">No Items</span>';
         return;
     }
 

@@ -28,7 +28,7 @@ namespace App\Controllers;
             $this->set('products', $products);
 
             $userModel = new UserModel($this->getDatabaseConnection());
-            $user = $userModel->getByUserId($id);
+            $user = $userModel->getByUserId($userId);
 
             $this->set('user', $user);
         }
