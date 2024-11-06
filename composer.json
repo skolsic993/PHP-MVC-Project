@@ -2,7 +2,7 @@
     "name": "mstojsavljevic/project-app",
     "type": "project",
     "require": {
-        "twig/twig": "^2.6"
+        "twig/twig": "^3.11"
     },
     "autoload": {
         "psr-4": {
